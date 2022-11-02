@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>aula ads - bootstrap</title>
+
+
+    <!--link para imagens
+       https://pixabay.com/pt/photos/m%c3%a1laga-andaluzia-espanha-teatro-4773445/ 
+       https://pixabay.com/pt/photos/sagrada-familia-catedral-arquitetura-552084/
+       https://pixabay.com/pt/photos/parc-g%c3%bcell-gaud%c3%ad-barcelona-espanha-332390/
+       https://pixabay.com/pt/photos/barcelona-est%c3%a1dio-camp-nou-espanha-1984632/
+       https://pixabay.com/pt/photos/casa-mila-la-pedrera-edif%c3%adcio-gaudi-7448965/
+       https://pixabay.com/pt/photos/barcelona-luta-de-touros-650983/
+
+    -->
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Cidade de Barcelona</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">história</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Pontos turisticos</a>
+                  </li>
+                 
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <H1>Barcelona</H1>, <h2>capital cosmopolita da região da Catalunha na Espanha, é conhecida pela sua arte e arquitetura. A fantástica igreja da Sagrada Família e outros monumentos modernistas projetados por Antoni Gaudí marcam a cidade. O Museu Picasso e a Fundação Joan Miró expõem a arte moderna dos artistas homônimos. O MUHBA, museu sobre a história da cidade, apresenta vários sítios arqueológicos romanos.</H2>
+    </header>
+    <section>
+        <!--começo carrosel -->
+
+        <div class=" m-5">
+          <div class="mx-auto" style="width: 1200px;">
+            
+          
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicator">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="IMG1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Camp Nou</h5>
+                  <p>O Spotify® Camp Nou é um estádio de futebol localizado na cidade de Barcelona, na Catalunha.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="IMG2.jpg" class=" img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>A arena Monumental de Barcelona</h5>
+                  <p>As touradas são protegidas pela constituição espanhola como parte do patrimônio cultural do país. O espetáculo ainda é imensamente popular, embora o movimento contra ele tenha ganhado força.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="IMG3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Catedral Sagrada Familia</h5>
+                  <p>é um grande templo católico da cidade de Barcelona, Catalunha, Espanha, desenhado pelo arquiteto catalão Antoni Gaudí.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+          <!--cards-->
+
+          <div class="m-5">
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="IMG5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Museu Picasso.</h5>
+                    <p class="card-text">O Museu Picasso, como o nome já diz, é completamente dedicado às obras do artista Pablo Picasso, nascido no sul de Barcelona, principalmente algumas feitas no início da carreira do artista, demonstrando a genialidade do pintor desde tão novo.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Endereço: Carrer Montcada, 15-23 – 08003</small>
+                  </div>
+                </div>
+              </div>
+          
+  
+             
+  
+              <div class="col">
+                <div class="card h-100">
+                  <img src="IMG4.jpg" class="card-img-top " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">La Pedrera (Casa Milà)</</h5>
+                    <p class="card-text">obra do universo de Gaudí, o edifício modernista Casa Milà é mais uma dica excelente do que fazer em Barcelona.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Endereço: Passeig de Gràcia, 92, 08008</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="IMG6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Casa Batlló</h5>
+                    <p class="card-text">Considerada um Patrimônio Mundial da Humanidade pela UNESCO, a Casa Batlló é uma das obras mais impressionantes de Antoni Gaudí.
+                      A arquitetura e o design modernista deixam qualquer um boquiaberto.<br>Com lindas cores e relevos, composições únicas e inspiradas na natureza, a Casa Batlló é um enorme quadro impressionista se olhada de fora… E o que você está esperando para conhecê-la por dentro?</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Endereço: ​Passeig de Gràcia 43, 08007</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+          <!---->
+         
+          <h2><a>Pontos turisticos</a></h2>
+         
+
+          <ul class="list-group">
+            <li class="list-group-item"><b>1. Sagrada Família em Barcelona.</b><br>
+                Uma das mais encantadoras ​atrações turísticas de Barcelona​ é a Igreja Sagrada Família, tanto que é um dos cartões-postais da cidade.<br>
+                
+                Sua construção começou em 1882 e ainda não foi finalizada, tamanha a grandeza do monumento.<br>
+                
+                Apesar de inacabado, o templo não deixa de ser maravilhoso e é uma das belas obras modernistas de Gaudí espalhadas pela cidade.<br>
+                
+                -Endereço: ​Carrer de Mallorca, 401, 08013​<br>
+                -Como chegar: a forma mais fácil de chegar até ela é descendo na estação de metrô​ ​ao lado, Sagrada Família, pelas l​inhas 2 e 5​.<br>
+                -Custo: o ingresso custa ​€ 22,60 ​para adultos, se comprando online.<br>
+                -Funcionamento: de ​novembro a fevereiro,​ a Basílica funciona de ​9h às 18h​, mas se você pretende ir em outra época do ano, confira os horários ​no site​.<br></li>
+
+            <li class="list-group-item"><b>2. La Pedrera (Casa Milà)</b><br>
+                Outra obra do universo de Gaudí, o edifício modernista Casa Milà é mais uma dica excelente do que fazer em Barcelona.<br>
+                
+                Esse peculiar projeto do artista foi arquitetado especialmente para os senhor Roger Seguimòn de Milà, entre 1905 e 1907.<br>
+                
+                Conhecido também como La Pedrera, o edifício possui uma fachada ondulante e não possui nenhuma linha reta, o que parece desafiar nosso conceito de arquitetura convencional.<br>
+                
+               -Endereço: Passeig de Gràcia, 92, 08008<br>
+               -Como chegar: Linhas de ônibus: ​V15, V17, H10, H8, 7, 22, 24, 6, 33, 34; Metrô:​ linhas 3 e 5, saindo da Estação Diagonal.<br>
+               -Funcionamento: de 4 de novembro à 28 de fevereiro:​ aberta de 9h às 18h30​, com tour noturno de 19h às 21h. De 1º de março a 3 de novembro: ​aberta de 9h às 20h30​, com tour noturno de 21h às 23h. A Casa abre quase todos os dias do ano, fechando apenas no dia 25 de dezembro.<br>
+               -Custo: A entrada para uma visita simples custa ​22 € (online​) e 25 € (na hora).<br></li>
+
+            <li class="list-group-item"><b>3. Casa Batlló em Barcelona.</b><br>
+                Considerada um Patrimônio Mundial da Humanidade pela UNESCO, a Casa Batlló é uma das obras mais impressionantes de Antoni Gaudí.<br>
+                
+                A arquitetura e o design modernista deixam qualquer um boquiaberto.<br>
+                
+                Com lindas cores e relevos, composições únicas e inspiradas na natureza, a Casa Batlló é um enorme quadro impressionista se olhada de fora… E o que você está esperando para conhecê-la por dentro?<br>
+                
+                -Endereço: ​Passeig de Gràcia 43, 08007<br>
+                -Como chegar: as principais opções são: metrô:​ “Passeig de Gràcia”, pelas linhas L2, L3 e L4 | RENFE: ​Estacion Passeig de Gràcia ou FGC – Estacion Provença | ônibus:​ pelas linhas H10, V15, 7, 22 e 24.<br>
+                -Funcionamento: a Casa funciona de​ 9h às 21h​, com a última entrada às 20h.<br>
+                -Custo: O ingresso para um tour simples na Casa Batlló custa ​€ 25 ​para adultos. Existem ​outras opções de tour​, mas ​crianças menores de 7 anos entram gratuitamente em qualquer um dos passeios.<br></li>
+
+            <li class="list-group-item"><b>4. Estádio Camp Nou.</b><br>
+                Você é fã de futebol? Então não deixe de conhecer o Camp Nou, o estádio do Barça, que é mais uma dica de o que fazer em Barcelona, variando um pouco entre tantas atrações artísticas.<br>
+                
+                No tour Camp Nou Experience é possível conhecer o museu do F.C. Barcelona, visitar a arquibancada, os vestiários e todo o complexo do estádio, que é considerado o maior de toda a Europa.<br>
+                -Endereço: oCamp Nou fica na ​C. d’Arístides Maillol, 12, 08028, ​Barcelona.<br>
+                -Como chegar: para chegar até ele, a melhor opção é de metrô, pelas linhas 3 e 5.<br>
+                -Funcionamento: o estádio abre todos os dias do ano​ – exceto 1º de janeiro e 25 de dezembro. Ele funciona normalmente de ​9h30 às 19h30​, mas, em dias de jogos, os horários mudam. Por isso, verifique a agenda atual no ​site oficial​ do Camp Nou.<br>
+                -Custo: um ​tour básico custa € 25​ e inclui a visita ao Museu do Barça e ao estádio, porém sem visita guiada.<br></li>
+
+            <li class="list-group-item"><b>5. Museu Picasso.</b><br>
+                O Museu Picasso, como o nome já diz, é completamente dedicado às obras do artista Pablo Picasso, nascido no sul de Barcelona.<br>
+                
+                O espaço conta com um acervo de mais de 4 mil obras, principalmente algumas feitas no início da carreira do artista, demonstrando a genialidade do pintor desde tão novo.<br>
+                
+                -Endereço: Carrer Montcada, 15-23 – 08003<br>
+                -Como chegar: de metrô: ​linhas L4 na Jaume I ou na linha L1 do Arco do Triunfo; de ônibus:​ pelas linhas 120, 45, V15, V17, 39, 51, H14 e 51.<br>
+                -Funcionamento: o museu abre de terça a domingo, das​ 9h às 20h30, e​ na segunda-feira, das 10h às 17h.<br>
+                -Custo: ​​adultos: € 12 | de 18 a 25 anos e maiores de 65 anos: € 7 | menores de 18 anos não pagam entrada.<br></li>
+          </ul>
+     
+    
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </section>
+
+   <footer>
+
+
+   
+
+   </footer>
+  </body>
+</html>
